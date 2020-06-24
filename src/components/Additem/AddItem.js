@@ -34,7 +34,7 @@ class AddItem extends Component{
                     <input className="col p-2 mt-1 mb-1 mr-1" value={this.state.name} onChange={this.handelchange} id="name" type="text"  placeholder="enter your Name"/>
                     <input className="col p-2 m-1" value={this.state.job} onChange={this.handelchange} id="job" type="text"  placeholder="enter your Job"/>
                     <input className="col p-2 m-1" value={this.state.age} onChange={this.handelchange} id="age" type="number"  placeholder="enter your Age"/>
-                    <input className="col p-2  mt-1 mb-1 ml-1" type="submit"/>
+                    <input className="col p-2  mt-1 mb-1 ml-1" type="submit" value="add"/>
                 </form>
             </div>
         )
