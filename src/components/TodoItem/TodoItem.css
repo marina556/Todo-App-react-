@@ -1,0 +1,10 @@
+.todo{
+    background-color: burlywood;
+}
+.del{
+    transition: all .5s;
+    cursor: pointer;
+}
+.del:hover{
+  box-shadow: 0px 0px 3px 0px #a9aaae;
+}
